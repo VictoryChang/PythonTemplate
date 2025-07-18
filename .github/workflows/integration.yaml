@@ -1,4 +1,4 @@
-name: Python package
+name: PythonTemplate
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
     branches: [ "main" ]
 
 jobs:
-  build:
+  integration:
 
     runs-on: ubuntu-latest
 
